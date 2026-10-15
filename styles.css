@@ -1,0 +1,136 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html{
+    color: #555;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+header{
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(images-links/hero.jpg);
+    background-attachment: fixed;
+    height: 100vh;
+
+}
+
+.headrow { 
+    display: flex;
+    align-items:flex-end;
+    justify-content: space-between;
+    flex-direction: row;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.navbox{  
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+
+}
+
+#hero-text-box{
+    color:white;
+    font-size: 125%;
+    font-weight: 50;
+    word-spacing: 4px;
+    text-transform: uppercase;
+    width:1140px;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn{
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    color: white;
+}
+
+.btn:hover, .btn:active{
+    background-color: orange;
+}
+
+.btn-full{
+    background-color: orange;
+    border: 1px solid orange;
+    color: white;
+}
+
+.btn-ghost{
+    border: 1px solid;
+    color: orange;
+    transition: color 0.2s;
+}
+
+
+.btn-full:hover, .btn-full:active{
+    border: 1px solid orange;
+    background-color:transparent;
+    color: orange;
+    transition: color 0.2s;
+}
+
+.btn-ghost:hover, .btn-full:active{
+    border: 1px solid orange;
+    color: white;
+}
+
+.btn{
+    margin: 30px 10px;
+    padding: 10px;
+    max-width:fit-content;
+}
+#logo{
+    align-self: flex-start;
+    height: 100px;
+    width: auto;
+    max-width: 110px;
+
+}
+
+.nav{
+    height:auto;
+    width:auto;
+    text-decoration: none;
+    color: white;
+    border-bottom: 10px solid transparent;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    list-style: none;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+    font-size: 100%;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+li a:hover{
+    border-bottom: 3px solid orange;
+    text-decoration: none;
+    color: white;
+    font-size: 100%;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.section-features{
+    background-color: #f7f7f7;
+}
