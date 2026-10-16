@@ -1,3 +1,4 @@
+
 *{
     margin: 0%;
     padding: 0%;
@@ -133,4 +134,93 @@ li a:hover{
 
 .section-features{
     background-color: #f7f7f7;
+}
+
+.section-features .long-copy {
+    margin-bottom: 30px;
+}
+
+
+.long-copy {
+  line-height: 145%;
+  width: 70%;
+  margin-left: 15%;
+}
+
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+h1, h2, h3 {
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 180%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    margin-top: 60px;
+}
+
+h2:after {
+    display: block;
+    height: 2px;
+    background-color: orange;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.column {
+    flex: 1;
+}
+
+.long-copy {
+margin-bottom: 60px;
+}
+
+.icon-time {
+    font-size: 350%;
+    display: block;
+    color: orange;
+    margin-bottom: 10px;
+    --ionicon-stroke-width: 20px;
+}
+
+.icon-big {
+    font-size: 350%;
+    display: block;
+    color: orange;
+    margin-bottom: 10px;
+    --ionicon-stroke-width: 20px;
+}
+
+.icon-food {
+    font-size: 350%;
+    display: block;
+    color: orange;
+    margin-bottom: 10px;
+    --ionicon-stroke-width: 20px;
+}
+
+.icon-cart {
+    font-size: 350%;
+    display: block;
+    color: orange;
+    margin-bottom: 10px;
+    --ionicon-stroke-width: 20px;
 }
