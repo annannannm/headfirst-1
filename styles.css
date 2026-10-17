@@ -65,7 +65,7 @@ header{
 }
 
 .btn-full{
-    background-color: orange;
+    background-color: darkorange;
     border: 1px solid orange;
     color: white;
 }
@@ -133,7 +133,7 @@ li a:hover{
 }
 
 .section-features{
-    background-color: #f7f7f7;
+    background-color: white;
 }
 
 .wrapper {
@@ -156,7 +156,7 @@ li a:hover{
 .grid-item{
     display:flex;
     flex-direction: row;
-    fit-content: cover;
+    object-fit: cover;
     overflow: hidden;
     width: 25%;
     height: 100%;
@@ -171,8 +171,9 @@ li a:hover{
     height: 100%;
     opacity: 1;
     transform: scale(1);
+}
    
-.section-features .long-copy {
+.section-features {
     margin-bottom: 30px;
 }
 
@@ -259,4 +260,122 @@ margin-bottom: 60px;
     color: orange;
     margin-bottom: 10px;
     --ionicon-stroke-width: 20px;
+}
+
+.citywrapper{
+    padding-top: 75px;
+    padding-bottom: 80px;
+    margin: 40px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap ;
+    align-items: center;
+    gap: 60px;
+    justify-content: center;
+}
+.citywrapper h1{
+    width: 100%;
+    align-self: center;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.citywrapper h1:after {
+    display: block;
+    height: 2px;
+    background-color: orange;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.city-name h3{
+    font-size: 124%;
+}
+
+.iconc{
+    color:orange;
+    padding-right: 10px;
+} 
+
+.city-text p{
+    max-width: fit-content;
+}
+
+.city-text a{
+    color: orange;
+}
+
+
+.city-text{
+    display:flex;
+    align-items: row;
+}
+.plans{
+    padding-top:50px;
+    background-color: rgb(245, 244, 244);
+}
+.plans h1{
+    width: 100%;
+    align-self: center;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.plans h1:after{
+    display: block;
+    height: 2px;
+    background-color: orange;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom:20px;
+}
+
+.plans-row{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    gap: 80px;
+    justify-content: center;
+}
+
+.plans-box-wrap{
+    background-color: white;
+    min-width: 400px;
+    border: 1px solid darkgray;
+
+}
+.pros li{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.plans-box{
+    border-bottom: 2px solid darkgray;
+    padding: 6px;
+}
+
+.plans-box h3{
+    font-size: 125%;
+}
+.prices{
+    color:darkorange;
+    font-weight: lighter;
+    font-size: 150%
+}
+
+.prices span{
+    font-size: 85%;
+}
+
+.signup{
+    margin-left:30%;
+}
+
+.pros{ 
+    padding-top: 20px;
+    border-bottom: 2px solid darkgray;
 }
